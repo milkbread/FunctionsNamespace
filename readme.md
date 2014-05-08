@@ -14,3 +14,8 @@ I just 'stole' it from D3's namespacing!
 
 * the major library of "cGen" has to be loaded ... otherwise it won't work
 * make sure to return the new function
+
+### Level3: add an external "class" to the namespace
+
+* the major library of "cGen" has to be loaded ... otherwise it won't work
+* add the `var self = this;` to the major function ... not to an internal one

@@ -1,9 +1,11 @@
-!function() {
+// This is a basic IIFE (Immediately Invoked Function Expression)
+// 	...basically, just an immediately invoked function
+(function() {
 	var cGen = {
 		version:"0.0.0"
 	};
 	cGen.get = function() {
-  		return "It worked";
+  		return "Successfully loaded cGen!";
   	};
   	cGen.print = function(value) {
   		console.log(value);
@@ -16,4 +18,4 @@
 	} else {
 		this.cGen = cGen;
 	}
-}();
+}) ();
