@@ -1,19 +1,19 @@
 !function() {
-	var GC = {
+	var cGen = {
 		version:"0.0.0"
 	};
-	GC.get = function() {
+	cGen.get = function() {
   		return "It worked";
   	};
-  	GC.print = function(value) {
+  	cGen.print = function(value) {
   		console.log(value);
   	}
 
   	if (typeof define === "function" && define.amd) {
-		define(GC);
+		define(cGen);
 	} else if (typeof module === "object" && module.exports) {
-		module.exports = GC;
+		module.exports = cGen;
 	} else {
-		this.GC = GC;
+		this.cGen = cGen;
 	}
 }();
