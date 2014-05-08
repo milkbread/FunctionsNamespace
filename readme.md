@@ -9,3 +9,8 @@ I just 'stole' it from D3's namespacing!
 
 * the "naming" of namespace should begin lowercase
 * should have as less characters as possible ... as it will be always the leading string
+
+### Level2: add an external function to the namespace
+
+* the major library of "cGen" has to be loaded ... otherwise it won't work
+* make sure to return the new function
